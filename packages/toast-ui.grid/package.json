@@ -65,7 +65,7 @@
     "start-server-and-test": "^1.10.0",
     "style-loader": "^0.23.1",
     "terser-webpack-plugin": "^1.2.3",
-    "ts-loader": "^6.2.1",
+    "ts-loader": "^8.0.13",
     "tui-release-notes": "git+https://github.com/nhnent/tui.release-notes.git",
     "typescript": "^3.7.2",
     "webpack": "^4.29.6",
