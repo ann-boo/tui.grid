@@ -1,0 +1,78 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "12:45"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: css-loader
+    versions:
+    - 5.2.0
+    - 5.2.2
+  - dependency-name: cypress
+    versions:
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+    - 6.7.1
+    - 6.8.0
+    - 7.0.0
+    - 7.0.1
+    - 7.1.0
+  - dependency-name: apollo-server-express
+    versions:
+    - 2.19.2
+    - 2.20.0
+    - 2.21.0
+    - 2.21.1
+    - 2.22.1
+    - 2.22.2
+  - dependency-name: ts-loader
+    versions:
+    - 8.0.14
+    - 8.0.17
+    - 8.1.0
+  - dependency-name: "@storybook/html"
+    versions:
+    - 6.1.21
+  - dependency-name: "@vue/cli"
+    versions:
+    - 4.5.11
+    - 4.5.12
+  - dependency-name: "@storybook/addon-knobs"
+    versions:
+    - 6.1.15
+    - 6.1.16
+    - 6.1.20
+    - 6.1.21
+  - dependency-name: "@babel/plugin-proposal-object-rest-spread"
+    versions:
+    - 7.12.1
+    - 7.13.8
+  - dependency-name: webpack-dev-server
+    versions:
+    - 3.11.2
+  - dependency-name: handlebars
+    versions:
+    - 4.7.7
+  - dependency-name: elliptic
+    versions:
+    - 6.5.4
+  - dependency-name: eslint
+    versions:
+    - 6.8.0
+  - dependency-name: "@cypress/watch-preprocessor"
+    versions:
+    - 1.0.1
+  - dependency-name: vue-loader
+    versions:
+    - 15.9.6
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.20
+  - dependency-name: react-dom
+    versions:
+    - 16.13.0
