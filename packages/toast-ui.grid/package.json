@@ -67,7 +67,7 @@
     "terser-webpack-plugin": "^1.2.3",
     "ts-loader": "^6.2.1",
     "tui-release-notes": "git+https://github.com/nhnent/tui.release-notes.git",
-    "typescript": "^3.7.2",
+    "typescript": "^4.3.2",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1",
